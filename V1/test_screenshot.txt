@@ -1,0 +1,56 @@
+sheba@Shebas-MBP CPR101_final % gcc main.c                                    
+sheba@Shebas-MBP CPR101_final % ./a.out                                       
+*** Start of Indexing Strings Demo ***
+Type a string (q - to quit) :
+warning: this program uses gets(), which is unsafe.
+sadfasfdsafafdsafsafsafsdafsafdsafadsfasdfasdfadfasfasdfdasfdsag
+Type the character position within the string:
+300
+Wrong position... type again, please
+Type the character position within the string:
+10
+The character found at 10 position is 'f'
+Type a string (q - to quit) :
+23423424ff23rf////[[of
+Type the character position within the string:
+-4
+Wrong position... type again, please
+Type the character position within the string:
+x
+The character found at 0 position is '2'
+Type a string (q - to quit) :
+safdsfasd
+Type the character position within the string:
+d
+The character found at 0 position is 's'
+Type a string (q - to quit) :
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Converting Strings Demo ***
+Type the int numeric string (q - to quit):
+2342342
+Converted number is 2342342
+Type the int numeric string (q - to quit):
+dsfgsdfg
+Converted number is 0
+Type the int numeric string (q - to quit):
+32478974893279473289743289742938479827498278472873
+Converted number is -1
+Type the int numeric string (q - to quit):
+                     
+Converted number is 0
+Type the int numeric string (q - to quit):
+0
+Converted number is 0
+Type the int numeric string (q - to quit):
+-1
+Converted number is -1
+Type the int numeric string (q - to quit):
+aaaaaaaaaaaaaaa
+Converted number is 0
+Type the int numeric string (q - to quit):
+q
+*** End of Converting Strings Demo ***
+
+sheba@Shebas-MBP CPR101_final % 

@@ -1,0 +1,52 @@
+sheba@Shebas-MBP CPR101NAA_BB05 % cd Version1
+sheba@Shebas-MBP Version1 % git init
+Initialized empty Git repository in /Users/sheba/CPR101NAA_BB05/Version1/.git/
+sheba@Shebas-MBP Version1 % git add .
+sheba@Shebas-MBP Version1 % git commit "Version1"
+error: pathspec 'Version1' did not match any file(s) known to git
+sheba@Shebas-MBP Version1 % git commit -m "Version1"
+[master (root-commit) 20960e6] Version1
+ Committer: Sheba <sheba@Shebas-MBP.hitronhub.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 18 files changed, 455 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 CP4P_Final_Assignment_Plan_Group05.xlsx
+ create mode 100644 V1_test_cases/.DS_Store
+ create mode 100644 V1_test_cases/V1_test_cases.docx
+ create mode 100644 V1_test_cases/convertingchars.txt
+ create mode 100644 V1_test_cases/convertinglargeint.txt
+ create mode 100644 V1_test_cases/fundamentalsintaschar.txt
+ create mode 100644 V1_test_cases/integers.txt
+ create mode 100644 V1_test_cases/largeintegers.txt
+ create mode 100644 V1_test_cases/~$_test_cases.docx
+ create mode 100755 a.out
+ create mode 100644 converting.c
+ create mode 100644 converting.h
+ create mode 100644 fundamentals.c
+ create mode 100644 fundamentals.h
+ create mode 100644 main.c
+ create mode 100644 test_screenshot.png
+ create mode 100644 test_screenshot.txt
+sheba@Shebas-MBP Version1 % git remote add origin https://shebadigital@git.epfl.ch/repo/CPR101NAA_BB05.git
+sheba@Shebas-MBP Version1 % git push -u origin master
+fatal: unable to update url base from redirection:
+  asked for: https://shebadigital@git.epfl.ch/repo/CPR101NAA_BB05.git/info/refs?service=git-receive-pack
+   redirect: https://c4science.ch/?service=git-receive-pack
+sheba@Shebas-MBP Version1 % git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+sheba@Shebas-MBP Version1 % 
