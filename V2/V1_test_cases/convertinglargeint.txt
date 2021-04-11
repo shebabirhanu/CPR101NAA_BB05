@@ -1,0 +1,59 @@
+sheba@Shebas-MBP CPR101_final % gcc main.c
+sheba@Shebas-MBP CPR101_final % ./a.out   
+*** Start of Indexing Strings Demo ***
+Type a string (q - to quit) :
+warning: this program uses gets(), which is unsafe.
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Converting Strings Demo ***
+Type the int numeric string (q - to quit):
+3242423432424
+Converted number is -276876056
+Type the int numeric string (q - to quit):
+234324243324
+Converted number is -1898957956
+Type the int numeric string (q - to quit):
+23432432423432423
+Converted number is 1389523175
+Type the int numeric string (q - to quit):
+22
+Converted number is 22
+Type the int numeric string (q - to quit):
+21321321312321
+Converted number is 1103654977
+Type the int numeric string (q - to quit):
+123232
+Converted number is 123232
+Type the int numeric string (q - to quit):
+1231333
+Converted number is 1231333
+Type the int numeric string (q - to quit):
+3213213
+Converted number is 3213213
+Type the int numeric string (q - to quit):
+10000
+Converted number is 10000
+Type the int numeric string (q - to quit):
+100000
+Converted number is 100000
+Type the int numeric string (q - to quit):
+1000000000
+Converted number is 1000000000
+Type the int numeric string (q - to quit):
+31233123123
+Converted number is 1168352051
+Type the int numeric string (q - to quit):
+q
+*** End of Converting Strings Demo ***
+
+sheba@Shebas-MBP CPR101_final % 
+
+
+
+
+
+
+
+
+

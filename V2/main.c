@@ -16,8 +16,11 @@ int main(void)
     //Call fundamentals function to begin demo
     fundamentals();
 
-    //Call converting function to begin demo
-    converting();
+    //Call string to Int converting function to begin demo
+    convertingInt();
+
+    //Call string to double converting function to begin demo
+    convertingDouble();
 
     return 0;
 }

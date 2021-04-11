@@ -12,6 +12,7 @@ Purpose: Header File for Converting String to Double
 
 #define TRUE 1 //Global variable
 
-void converting(); //function prototype
+void convertingInt (); //converting String to Int prototype
+void convertingDouble (); //converting String to Double prototype
 
 #endif

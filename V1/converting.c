@@ -9,7 +9,7 @@ void converting(){
     //Begin Converting demo
     printf("*** Start of Converting Strings Demo ***\n");
 
-    //Initialize array with a size of 80 characters
+    //Initialize 80-element array
     char int_string[80];
 
     //Initialize integer
