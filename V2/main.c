@@ -11,10 +11,13 @@ Purpose: Finding Character in String & Converting String to Integers
 #include "fundamentals.c" // Link to file in same directory
 
 
-int main(void)
-{
+int main(void){
+    
     //Call fundamentals function to begin demo
-    fundamentals();
+    fundamentalsIndexing();
+
+    //Call fundamentals function to begin demo
+    fundamentalsMeasuring();
 
     //Call string to Int converting function to begin demo
     convertingInt();

@@ -4,7 +4,7 @@ Purpose: Function for Finding Character in String
 */
 
 #include "fundamentals.h"  // Header File
-void fundamentals()      // Function does not return value
+void fundamentalsindexing()      // Function does not return value
 {
     printf("*** Start of Indexing Strings Demo ***\n"); // We start the fundemntals demo. 
     char buffer1[80];     // Initialize the array(buffer1) to have a limited size of 80 characters.
