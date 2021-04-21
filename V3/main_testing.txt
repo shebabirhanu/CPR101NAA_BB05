@@ -1,0 +1,268 @@
+sheba@Shebas-MBP V2 % gcc main.c
+sheba@Shebas-MBP V2 % ./a.out                                      
+*** Start of Indexing Strings Demo ***
+Type a string (q - to quit) :
+warning: this program uses gets(), which is unsafe.
+233
+Type the character position within the string:
+3
+Wrong position... type again, please
+Type the character position within the string:
+2
+The character found at 2 position is '3'
+Type a string (q - to quit) :
+fadsfa
+Type the character position within the string:
+2
+The character found at 2 position is 'd'
+Type a string (q - to quit) :
+sfdsafsafdsafasfadfasdfdsa
+Type the character position within the string:
+99
+Wrong position... type again, please
+Type the character position within the string:
+6
+The character found at 6 position is 's'
+Type a string (q - to quit) :
+dfdfasfdsafasfasfasfasdfasfdsfasdfsafsdafasdfasdfdsafasdfadadsa
+Type the character position within the string:
+88
+Wrong position... type again, please
+Type the character position within the string:
+44
+The character found at 44 position is 'f'
+Type a string (q - to quit) :
+4
+Type the character position within the string:
+0
+The character found at 0 position is '4'
+Type a string (q - to quit) :
+0
+Type the character position within the string:
+0
+The character found at 0 position is '0'
+Type a string (q - to quit) :
+
+Type the character position within the string:
+
+Wrong position... type again, please
+Type the character position within the string:
+0
+Wrong position... type again, please
+Type the character position within the string:
+1
+Wrong position... type again, please
+Type the character position within the string:
+2
+Wrong position... type again, please
+Type the character position within the string:
+f
+Wrong position... type again, please
+Type the character position within the string:
+FDSAFSAFSAFASFDSAFAS
+The character found at 0 position is 'F'
+Type a string (q - to quit) :
+24324324234324234324324234324324324234E23423
+Type the character position within the string:
+4
+The character found at 4 position is '4'
+Type a string (q - to quit) :
+DSFASFSADFDASFADSFSAFDASFDSAFDSAFADSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  
+Type the character position within the string:
+444
+The character found at 444 position is 'A'
+Type a string (q - to quit) :
+q
+*** End of Indexing Strings Demo ***
+
+zsh: abort      ./a.out
+sheba@Shebas-MBP V2 % gcc main.c
+sheba@Shebas-MBP V2 % ./a.out   
+*** Start of Indexing Strings Demo ***
+Type a string (q - to quit) :
+warning: this program uses gets(), which is unsafe.
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit) :
+2
+The length is 1
+Type a string (q - to quit) :
+4
+The length is 1
+Type a string (q - to quit) :
+5
+The length is 1
+Type a string (q - to quit) :
+dsajflkdjsalkjfklsajldfjlsakflksaf
+The length is 34
+Type a string (q - to quit) :
+dsajflksjadlkfjskladjfkl;dsajfkldjsalfkjdklsajflk;dasjfklsdjfl;kjdsaklfjasdlk;fjklsdajf;lksadjfkljdsal;fkjaklsdfjlkasj;flksa;jf;kasdjkfl;jaslk;dfjkl;sadfj;ladjsf
+The length is 161
+Type a string (q - to quit) :
+3
+The length is 1
+Type a string (q - to quit) :
+4
+The length is 1
+Type a string (q - to quit) :
+5
+The length is 1
+Type a string (q - to quit) :
+0
+The length is 1
+Type a string (q - to quit) :
+
+The length is 0
+Type a string (q - to quit) :
+
+The length is 0
+Type a string (q - to quit) :
+
+The length is 0
+Type a string (q - to quit) :
+DSFASFSADFDASFADSFSAFDASFDSAFDSAFADSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSADFDASFADSFSAFDASFDSAFDSAFA  DSFASFSAFDASFADSFSAFDASFDSAFDSAFA  
+The length is 573
+Type a string (q - to quit) :
+Q
+The length is 1
+Type a string (q - to quit) :
+Q
+The length is 1
+Type a string (q - to quit) :
+q
+*** End of Measuring Strings Demo ***
+
+zsh: abort      ./a.out
+sheba@Shebas-MBP V2 % gcc main.c
+sheba@Shebas-MBP V2 % ./a.out   
+*** Start of Indexing Strings Demo ***
+Type a string (q - to quit) :
+warning: this program uses gets(), which is unsafe.
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit) :
+q
+*** End of Measuring Strings Demo ***
+
+*** Start of Converting Strings Demo ***
+Type the int numeric string (q - to quit):
+1
+Converted number is 1
+Type the int numeric string (q - to quit):
+0
+Converted number is 0
+Type the int numeric string (q - to quit):
+f
+Converted number is 0
+Type the int numeric string (q - to quit):
+
+Converted number is 0
+Type the int numeric string (q - to quit):
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242
+32423424234234324324324243242Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+Converted number is -1
+Type the int numeric string (q - to quit):
+3242342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242
+Converted number is -1
+Type the int numeric string (q - to quit):
+q
+*** End of Converting Strings Demo ***
+
+zsh: abort      ./a.out
+sheba@Shebas-MBP V2 % gcc main.c
+sheba@Shebas-MBP V2 % ./a.out   
+*** Start of Indexing Strings Demo ***
+Type a string (q - to quit) :
+warning: this program uses gets(), which is unsafe.
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit) :
+q
+*** End of Measuring Strings Demo ***
+
+*** Start of Converting Strings Demo ***
+Type the int numeric string (q - to quit):
+q
+*** End of Converting Strings Demo ***
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+3242342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242234242342343243243242432422342423423432432432424324223424234234324324324243242
+Converted number is inf
+Type the double numeric string (q - to quit):
+q
+*** End of Converting Strings to double Demo ***
+
+zsh: abort      ./a.out
+sheba@Shebas-MBP V2 % 
