@@ -48,9 +48,11 @@ void fundamentalsMeasuring(){
     while (TRUE) {	
 		printf("Type a string (q - to quit) :\n"); 
         
-		gets(buffer2); //Retrieve buffer array from user
+		//Retrieve buffer array from user
+        gets(buffer2); 
 		
-        if (strcmp(buffer2, "q") == 0) break; // Break if 'q' is input
+        // Break if 'q' is input
+        if (strcmp(buffer2, "q") == 0) break; 
 		
         // strlen to calculate the length of a string, Also takes a string as an argument and returns its length.
         printf("The length is %lu\n", strlen(buffer2)); 

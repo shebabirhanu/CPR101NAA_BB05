@@ -1,24 +1,34 @@
-sheba@Shebas-MBP CPR101NAA_BB05 % git log -p
-commit 589516631b6293ca8d2b47c329a3632e4e13ef84 (HEAD -> main, origin/main, origin/HEAD)
-Merge: 8559254 b5fd647
-Author: Sheba <sheba@Shebas-MBP.hitronhub.home>
-Date:   Wed Apr 14 23:39:00 2021 -0400
+sheba@Shebas-MBP ~ % cd CPR101NAA_BB05
+sheba@Shebas-MBP CPR101NAA_BB05 % git init
+Reinitialized existing Git repository in /Users/sheba/CPR101NAA_BB05/.git/
+sheba@Shebas-MBP CPR101NAA_BB05 % git add .
+sheba@Shebas-MBP CPR101NAA_BB05 % git commit -m ".c Converting Submission"
+[main b4cec2b] .c Converting Submission
+ Committer: Sheba <sheba@Shebas-MBP.hitronhub.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
 
-    V2 Submission
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
 
-commit 8559254d352d0e7446ac0e65b51b599d1680b89e
-Author: Sheba <sheba@Shebas-MBP.hitronhub.home>
-Date:   Wed Apr 14 23:38:18 2021 -0400
+After doing this, you may fix the identity used for this commit with:
 
-    V2 Submission
+    git commit --amend --reset-author
 
-diff --git a/.DS_Store b/.DS_Store
-index 2fe7f8a..3fd8bde 100644
-Binary files a/.DS_Store and b/.DS_Store differ
-diff --git a/V2/converting.c b/V2/converting.c
-index e35f192..b220593 100644
---- a/V2/converting.c
-+++ b/V2/converting.c
-@@ -3,7 +3,7 @@
- Purpose: Function for Converting Strings to Double
-:
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100755 V3/a.out
+ rename V3/{~$test case template_v2.xlsx => ~$fundamentals_test_cases.xlsx} (100%)
+ create mode 100644 V3/~$main_test_cases.xlsx .xlsx
+sheba@Shebas-MBP CPR101NAA_BB05 % git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.68 KiB | 1.34 MiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/shebabirhanu/CPR101NAA_BB05.git
+To https://github.com/shebadigital/CPR101NAA_BB05.git
+   a31714b..b4cec2b  main -> main
