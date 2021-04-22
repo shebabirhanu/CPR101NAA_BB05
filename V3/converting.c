@@ -66,10 +66,10 @@ void convertingDouble() {
 
 void convertingLong(){
     printf("*** Start of Converting String to long Demo ***\n");
-    //initialize char array size of 80
+    //Initialize char array size of 80
     char long_string[80];
 
-    //initialize long number
+    //Initialize long number
     long long_number;
     while (TRUE){
         //Ask user to input long numeric string
