@@ -1,3 +1,8 @@
+/* 
+[fundamentals.c] : Fundamentals C Functions 
+Purpose: Header File for Converting Strings
+*/
+
 #include "fundamentals.h" //Header File
 
 void fundamentalsIndexing()      // Function does not return value
@@ -52,4 +57,22 @@ void fundamentalsMeasuring(){
 
 	}
 	printf("*** End of Measuring Strings Demo ***\n\n"); //End of the statment
+}
+
+ // Function does not return value 
+void fundamentalsCopying() {
+	printf("*** Start of Copying Strings Demo ***\n"); //We start Measuring the fundemntals demo.
+	char destination[80]; // Initialize the array(destination) to have a limited size of 80 characters.
+	char source[80]; // Initialize the array(source) to have a limited size of 80 characters.
+	while (TRUE) //Initialize conditioned to loop when becomes true. 
+	{
+		destination[0] = '\0';
+		printf("Destination string is reset to empty\n");
+		printf("Type a source string (q- to quiit):\n"); // Ask the user to insert the input.
+		gets(source); // we called the programming statement.
+		if (strcmp(source, "q") == 0) break; // Break if 'q' is input
+		strcpy(destination, source); // We copy one string to another.
+		printf("New destination string is \'%s\':\n", destination);
+	} // End of the loop 
+	printf("*** End of copying Strings Demo ***\n\n"); //End of the statment
 }

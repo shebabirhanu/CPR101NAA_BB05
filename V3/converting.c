@@ -1,6 +1,6 @@
 /* 
-[converting.c] : Functions
-Purpose: Function for Converting Strings to Double
+[converting.c] : Converting C Functions
+Purpose: Function for Converting Strings
 */
 
 #include "converting.h" //Link to header File 
@@ -60,4 +60,18 @@ void convertingDouble() {
     }
     //End of Converting demo
     printf("*** End of Converting Strings to double Demo ***\n\n");
+}
+
+void convertingLong(){
+    printf("*** Start of Converting String to long Demo ***\n");
+    char long_string[80];
+    long long_number;
+    while (TRUE){
+        printf("Type the long numeric string (q - to quit):\n");
+        gets(long_string);
+        if (strcmp(long_string, "q") == 0) break;
+        long_number = atol(long_string);
+        printf("Converted number is %ld\n", long_number);
+    }
+    printf("*** End of Converting Strings to long Demo ***\n\n");
 }

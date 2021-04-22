@@ -1,6 +1,6 @@
 /* 
 [converting.h] : Converting Header File
-Purpose: Header File for Converting String to Double 
+Purpose: Header File for Converting Strings 
 */
 
 #ifndef _CONVERTING_H
@@ -12,7 +12,8 @@ Purpose: Header File for Converting String to Double
 
 #define TRUE 1 //Global variable
 
-void convertingInt (); //converting String to Int prototype
-void convertingDouble (); //converting String to Double prototype
+void convertingInt(); //converting String to Int prototype
+void convertingDouble(); //converting String to Double prototype
+void convertingLong(); //converting String to Long prototype
 
 #endif

@@ -19,11 +19,17 @@ int main(void){
     //Call fundamentals function to begin demo
     fundamentalsMeasuring();
 
+    //Call fundamentals Measuring function to begin demo
+    fundamentalsCopying();
+
     //Call string to Int converting function to begin demo
     convertingInt();
 
     //Call string to double converting function to begin demo
     convertingDouble();
+
+     //Call string to long converting function to begin demo
+    convertingLong();
 
     return 0;
 }
