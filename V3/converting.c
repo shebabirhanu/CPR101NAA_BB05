@@ -44,6 +44,7 @@ void convertingDouble() {
     //Initialize double 
     double double_number;
 
+    //Initialize conditional to loop when true
     while(TRUE){
         //Ask user to input double num string and store user input as double_string
         printf("Type the double numeric string (q - to quit):\n");
@@ -64,14 +65,25 @@ void convertingDouble() {
 
 void convertingLong(){
     printf("*** Start of Converting String to long Demo ***\n");
+    //initialize char array size of 80
     char long_string[80];
+
+    //initialize long number
     long long_number;
     while (TRUE){
+        //Ask user to input long numeric string
         printf("Type the long numeric string (q - to quit):\n");
+
+        //get long numeric string from user
         gets(long_string);
+
+        //If user types 'q', quit
         if (strcmp(long_string, "q") == 0) break;
+
+        //Convert string to long number
         long_number = atol(long_string);
         printf("Converted number is %ld\n", long_number);
     }
+    //End of Converting Demo
     printf("*** End of Converting Strings to long Demo ***\n\n");
 }
