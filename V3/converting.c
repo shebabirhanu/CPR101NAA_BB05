@@ -3,7 +3,8 @@
 Purpose: Function for Converting Strings
 */
 
-#include "converting.h" //Link to header File 
+//Link to header File 
+#include "converting.h" 
 
 void convertingInt() {
      //Begin Converting demo
